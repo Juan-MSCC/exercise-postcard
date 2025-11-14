@@ -1,0 +1,30 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background-color: white;
+}
+
+.postcard-header {
+	display: flex;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 80%;
+	margin: 0px;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
